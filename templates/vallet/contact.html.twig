@@ -1,0 +1,49 @@
+{% extends 'base.html.twig' %}
+{% block head %}
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+{% endblock %}
+
+{% block title %}Contact{% endblock %}
+
+{% block body %}
+<div class="main">
+<br><br>
+    <div class="first">
+    <form>
+    <fieldset>
+    <div class="centre">
+    <div style="text-transform: uppercase;"><legend><u>Contact</u></legend></div></div>
+    <div class="text">
+        <p>Remplisser les champs obligatoires pour télécharger mon cv</p></div>
+     
+
+        <div class="form-group">
+            <label for="exampleInputEmail1" class="form-label mt-4">Prénom *</label>
+            <input type="" id ="name1" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" onkeypress="check()" placeholder="Entrer votre Prénom">
+        </div>
+
+        <div class="form-group">
+            <label for="exampleInputEmail1" class="form-label mt-4">Nom *</label>
+            <input type="" id ="name" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" onkeypress="check()" placeholder="Entrer votre nom">
+            
+        </div>
+        <div class="form-group">
+            <label for="exampleInputEmail1" class="form-label mt-4">Adresse Email * </label>
+            <input type="email" id ="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" onkeypress="check()" placeholder="Entrer votre email">
+        </div>
+            <div class="form-group">
+      <label for="exampleTextarea" class="form-label mt-4">Texte (facultatif)</label>
+      <textarea class="form-control" id="exampleTextarea" rows="3"></textarea>
+    </div>
+    <br>
+    <div class="centre">
+        <button type="submit" style="display:none" id="text" class="centre btn btn-outline-dark"><a href="moncv.pdf" download>Télécharger mon cv</a></button></div>
+  </fieldset>
+</form>
+</div>
+</div>
+ 
+    
+
+{% endblock %}

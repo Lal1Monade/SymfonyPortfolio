@@ -1,0 +1,34 @@
+{% extends 'base.html.twig' %}
+{% block head %}
+<meta name="viewport" content="width=device-width, initial-scale=1">
+{% endblock %}
+
+{% block title %}Accueil{% endblock %}
+
+{% block body %}
+<br></br>
+<div class="image">
+    <img src="./img/20220112_114306.jpg" style="width:128px;height:128px;"></div>
+
+<div class="main">
+
+    <div class="first">
+<br><br>
+    <h2>Hugo VALLET</h2>
+
+        <div class="texte">
+            <p>hugo.vallet2@etu.univ-st-etienne.fr</p></div>
+<br><br><br>
+
+        <p class="text-primary">Bienvenue sur mon site. Je suis étudiant à l'université Jean-Monnet à Roanne. 
+        Je suis dans la formation BUT Réseaux et Télécommunication.</p>
+<br></br>
+
+        <div class="centre">
+            <button type="button" class="btn btn-outline-dark"  onclick="window.location.href = 'http://127.0.0.1:8000/ensavoirplus';">Pour En Savoir Plus</button>
+        </div>
+    </div>
+</div>
+
+
+{% endblock %}

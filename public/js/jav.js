@@ -1,0 +1,1 @@
+<><script src="../_vendor/jquery/dist/jquery.min.js"></script><script src="../_vendor/bootstrap/dist/js/bootstrap.bundle.min.js"></script><script src="../_vendor/prismjs/prism.js" data-manual></script><script src="../_assets/js/custom.js"></script></>

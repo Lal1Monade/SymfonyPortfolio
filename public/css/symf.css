@@ -1,0 +1,84 @@
+.texte {
+  text-align: left;
+  margin-left: 36%;
+
+}
+.text {
+text-align: center;
+}
+
+p{
+  text-decoration-color: black;
+}
+
+.image {
+  margin-left: 20%;
+  margin-top: 2%;
+  float: left;
+  border-style: groove;
+}
+
+.content{
+  padding : 10%;
+  border-radius: 8px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url('https://cdn.pixabay.com/photo/2015/07/28/22/01/office-865091_960_720.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;  
+  background-size: cover;
+}
+
+
+.main {
+  max-width: 1000px;
+  margin: auto;
+}
+
+h1 {
+  font-size: 50px;
+  word-break: break-all;
+  text-align: center;
+
+}
+
+h2{
+  font-size: 50px;
+  word-break: break-all;
+  text-align: left;
+  padding-left: 39%;
+}
+
+h3{
+  text-align: left;
+}
+
+h4{
+  text-align: center;
+}
+
+h5{
+  text-align: center;
+}
+
+
+div.first {
+  background: rgba(255, 255, 255, 0.788);
+  padding: 2%;
+}
+
+
+.centre {
+  text-align: center;
+  margin: auto;
+}
+
+a{
+  color: white;
+}
+

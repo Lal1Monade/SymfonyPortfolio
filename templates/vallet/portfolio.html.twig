@@ -1,0 +1,33 @@
+{% extends 'base.html.twig' %}
+{% block head %}
+<meta name="viewport" content="width=device-width, initial-scale=1">
+{% endblock %}
+
+{% block title %}Portfolio{% endblock %}
+
+{% block body %}
+<br>
+<br>
+<div class="main">
+    <h1><FONT color="white"><u>Les 3 Compétences</u></h1>
+    <br>
+    <div class="first">
+        <div class="d-grid gap-2">
+            <button class="btn btn-lg btn-primary" type="button" onclick="window.location.href = 'http://127.0.0.1:8000/cca';">Administrer les réseaux et l’Internet</button>
+        </div>
+    </div>
+    <br>
+     <div class="first">
+        <div class="d-grid gap-2">
+            <button class="btn btn-lg btn-primary" type="button" onclick="window.location.href = 'http://127.0.0.1:8000/ccb';">Connecter les entreprises et les usagers</button>
+        </div>
+    </div>
+    <br>
+     <div class="first">
+        <div class="d-grid gap-2">
+            <button class="btn btn-lg btn-primary" type="button" onclick="window.location.href = 'http://127.0.0.1:8000/ccc';">Créer des outils et applications informatiques pour les R&T</button>
+        </div>
+    </div>
+    </div>
+
+{% endblock %}
